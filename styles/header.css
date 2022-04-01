@@ -1,0 +1,88 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#navbar {
+
+ grid-template-columns: repeat(3,1fr);
+ width:100%;
+ height: 150px;
+ overflow: hidden;
+ justify-content: space-around;
+ background-color: teal;
+ padding: 10px;
+}
+.nav-img{
+ width: 200px;
+ height: 60px;
+}
+#navbar p{
+  color: white;
+}
+.first-slide{
+ display: flex;
+ width: 100%;
+ justify-content: space-evenly;
+}
+form > input{
+ width: 500px;
+ height: 50px;
+
+ margin-top: 40%;
+}
+.sec-slide{
+ display: grid;
+ grid-template-columns: repeat(6,1fr);
+ justify-content: flex-end;
+ margin-right: 30px;
+ margin-left: 30px;
+}
+.sec-slide > p{
+ color: white;
+}
+.signup{
+ margin-right: 40px;
+ margin-top: 20px;
+}
+.login{
+ margin-top: 20px;
+}
+.addcart{
+ margin-top: 20px;
+}
+a {
+ text-decoration: none;
+}
+#navbar a:hover {
+ color: white;
+}
+#navbar a {
+ cursor: pointer;
+}
+input[type=text]{
+ padding: 6px;
+ margin-top: 14px;
+ font-size: 17px;
+ border: none;
+ border-radius: 5px;
+}
+.search-container{
+ float: right;
+ border-radius: 5px;
+}
+.search-container button{
+ float: right;
+ height: 51px;
+ padding: 6px 10px;
+ margin-top: 13px;
+ margin-right: 30px;
+ border-radius: 5px;
+ border: none;
+ color: white;
+ cursor: pointer;
+}
+.slider-container{
+ padding-top: 20px;
+ line-height: 0%;
+}

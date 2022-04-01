@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+       
+ * {
+    margin: 0%;
+ }       
+.container1{
+      max-width: 100%;
+      margin: auto;
+      margin-left: 7%;
+}
+ul{
+    list-style:none;
+}
+li{
+    margin-bottom: 10px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 160px;
+}
+.footer{
+   background-color: #eaf3f3;
+   padding: 10px 0; 
+}
+.footer-col{
+   width: 25%;
+   padding: 0 5px;
+   margin-left: 20px;
+}
+.footer-col h4::before{
+   content: ' ';
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   background-color: #e91a63;
+   height: 2px;
+    box-sizing: border-box;
+    width:50px ;
+}
+.h4vala{
+   font-size: 18px;
+   color: black;
+   font-family:  sans-serif;
+   text-transform: capitalize;
+   margin-bottom: 30px;
+   margin-left: 15% ;
+   font-weight: 510;
+   position: relative;
+}
+
+.footer-col ul li a:hover{
+   color: #ffffff;
+   padding-left: 8px;
+}
+.footer-col .social-links a{
+   display: inline-block;
+  
+   height: 40px;
+   width: 40px;
+   background-color: rgba(255,255,255,0.2);
+   margin-left: 10px;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 50%;
+   columns: #ffffff;
+   transition: all 0.5s ease;
+}
+i{
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  background-color: teal;
+  border-radius: 50%;
+}
+.bottom-img{
+  display: flex;
+  width: 100%;
+  height: auto;
+  gap: 28px;
+}
+.bottom-img > div{
+   width: 40px;
+   height: 30px;
+   
+}
+.bottom-img > div > img{
+  max-width: 50px;
+  max-height: 25px;
+ margin-left: 20px;
+}
+.bottom-img-upar{
+  display: flex;
+  justify-content: space-around;
+
+}
+.bottom-img-upar p{
+  margin-right: 12px;
+}

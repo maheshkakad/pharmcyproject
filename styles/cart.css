@@ -1,0 +1,289 @@
+*{
+    font-family: sans-serif;
+}
+.body{
+     padding: 30px;
+ }
+
+.address{
+    width: 100%;
+    height: 45px;
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.cart_total{
+    display: flex;
+}
+
+.offer{
+  
+    border: 1px dashed #3bb896;
+    padding: 10px 15px;
+    color: #3bb896;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #c0ebdf;
+}
+.offer img{
+    width: 15%;
+    height: 30px;
+   
+}
+
+
+.cartdisplay{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  .heading {
+      font-family:"Lato";
+      font-size: 35px;
+      margin-left: 30px;
+      font-family: sans-serif;
+  }
+
+  .box2{
+      padding-left: 15px;
+  }
+
+.cartt{
+margin-left: 100px;
+}
+
+  table{
+      width:900px;
+  }
+
+
+  .bar{
+      height: 40px;;
+      width: 100%;
+      background-color: #2E3337;
+      color: white;
+      margin: auto;
+      text-align: center;
+  }
+
+  .right-side{
+      margin-right: 40px;
+      margin-bottom: 50px;
+  }
+
+  .container{
+      display: flex;
+      justify-content: space-between;
+  }
+  .addresstext{
+      text-align: center;
+      color: white;
+      padding-top: 10px;
+  }
+  .p {
+      font-family: tahoma;
+      font-size: 20px;
+      color: blue;
+      border: 1px solid blue;
+      margin: 10px;
+      background-color: rgb(219, 248, 238);
+      font-weight: bold;
+  }
+  .p1{
+     font-family: tahoma;
+      font-size: 20px;
+      color:green;
+      border: 1px solid green;
+      margin: 10px;
+      background-color: rgb(219, 248, 238);
+      font-weight: bold;
+  }
+
+  .box1 {
+      display: flex;
+      justify-content: space-between;
+
+  }
+
+  .btn1 {
+      background-color: #2E3337;
+      color: wheat;
+      font: bold;
+      margin: 20px;
+      font-size: 20px;
+      height: 50px;
+
+  }
+
+  .btn1:hover {
+      cursor: pointer;
+      color: white;
+  }
+
+  .a>img {
+      height: 100px;
+      width: 100px;
+
+  }
+
+  .a {
+      display: flex;
+      margin: 10px;
+      background-color: white;
+  }
+
+  .box3 {
+      pointer-events: none;
+      width: 400px;
+      justify-content: center;
+      height: 60%;
+      margin-right: 30pxpx;
+      margin-right: 10%;
+  }
+.head{
+ padding-left: 15px;
+}
+  .total {
+      display: flex;
+      /* justify-content: space-between; */
+      justify-content: space-around;
+      
+  }
+
+  .coupon {
+      /* background-color: #2E3337; */
+      margin-left: 30%;
+              
+  
+  }
+  .coupon>input{
+      height: 40px;
+      width:50%;
+      font-size: large;
+  }
+  .coupon>button{
+      height: 44px;
+      
+  }
+  .btns{
+      color:white;
+      display: flex;
+      justify-content: space-between;
+  }
+  .pay{
+      display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  }
+  .pay>svg{
+      cursor: pointer;
+      margin: 10px;
+      padding: 10px;
+  }
+      
+  .box3-1 {
+    pointer-events: none;
+    width: 420px;
+    justify-content: center;
+    height: 200px;
+    margin-right: 30pxpx;
+    margin-right: 10%;
+    background-color:#8573e1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box3-2{
+    display: flex;
+    color: white;
+    gap: 10px;
+    
+
+}
+.box3-2 img{
+    margin-top: 8px;}
+
+ .box3-3{
+     display: flex;
+     background-color: white;
+     margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(200, 238, 225);
+     padding: 5px;
+ }   
+.box3-3 p{
+    margin-left: 6px;
+}
+.box3-3 img{
+    height: 30px;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+.list-1{
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+}
+.bottom-div{
+    display: flex;
+    width: 100%;
+    height: 400px;
+   
+}
+.mid-div{
+    display: flex;
+
+}
+
+.lastdiv{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(192, 196, 196);
+    justify-content: center;
+    gap: 40px;
+   
+}
+.lastdiv div{
+    width: 220px;
+    margin-top: 30px;
+    line-height: 40px;
+    
+}
+
+
+.lastdiv div > h5{
+    color: gray;
+}
+
+
+
+
+  @media (min-width: 500px) and (max-width: 1050px) {
+
+      .container{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+  }
+  
+
+   }
+
+   #flex{
+       display: flex;
+       margin: 5px;
+   }
+ 
